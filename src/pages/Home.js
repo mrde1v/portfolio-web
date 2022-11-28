@@ -7,21 +7,21 @@ import Logo from "./../img/logo.png";
 function Home() {
   return (
     <div>
-      <nav className="bg-[#171a18] p-5">
+      <nav className="bg-[#171a18] p-5 nav">
         <ul className="inline-flex gap-5">
           <li>
-            <Link to="/" className="hover:text-[#20FD6A] transition">Home</Link>
+            <Link to="/" className="hover:text-[#20FD6A] transition duration-300">Home</Link>
           </li>
           <li>
-            <Link to="/knowledge" className="hover:text-[#20FD6A] transition">Knowledge</Link>
+            <Link to="/knowledge" className="hover:text-[#20FD6A] transition duration-300">Knowledge</Link>
           </li>
           <li>
-            <Link to="/projects" className="hover:text-[#20FD6A] transition">Projects</Link>
+            <Link to="/projects" className="hover:text-[#20FD6A] transition duration-300">Projects</Link>
           </li>
         </ul>
       </nav>
 
-      <div className="box bg-[#141615] p-20 mt-10 mb-10">
+      <div className="box bg-[#141615] p-20 mt-10 mb-10 cursor-default transform transition-all duration-150 ease-out">
         <div className="inline-flex float-left">
           <img className="inline-flex w-60 rounded-full" src={Logo} alt="logo" />
           <div>
@@ -44,7 +44,7 @@ function Home() {
           <a href="https://instagram.com/de1v_/" className="hover:underline">Instagram</a>
         </div>
       </div>
-      <p>Copyright De1v 2022</p>
+      <p className="cursor-default">Copyright © De1v 2022</p>
     </div>
   )
 }

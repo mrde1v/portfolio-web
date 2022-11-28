@@ -1,13 +1,27 @@
 .nav {
-  display: inline !important;
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
+  animation: nav-load 800ms ease-in;
 }
 
-.nav-ul {
-  list-style: none;
-  margin: 0;
-  display: inline;
+div {
+  animation: body-load 1000ms ease-in;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes body-load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
