@@ -1,0 +1,13 @@
+.nav {
+  display: inline !important;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.nav-ul {
+  list-style: none;
+  margin: 0;
+  display: inline;
+}
