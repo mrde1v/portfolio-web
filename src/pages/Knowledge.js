@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Knowledge() {
   return(
     <div>
-      <nav className="bg-[#171a18] p-5">
+      <nav className="p-5">
         <ul className="inline-flex gap-5">
           <li>
             <Link to="/" className="hover:text-[#20FD6A] transition">Home</Link>
@@ -18,7 +18,7 @@ function Knowledge() {
         </ul>
       </nav>
 
-      <div className="flex mb-10 mt-10">
+      <div className="flex mb-10 mt-10 cursor-default">
         <div className="w-full p-10 text-center bg-center">
           <h1 className="text-[#20FD6A] font-bold">Front-End</h1>
           <div className="rounded-full ml-96 w-2/5 h-8 pt-5 pb-12 mt-5 bg-gradient-to-r from-blue-500 to-[#20FD6A] text-center bg-center float-left">
@@ -27,7 +27,7 @@ function Knowledge() {
           </div>
         </div>
       </div>
-      <div className="flex mb-10 mt-10">
+      <div className="flex mb-10 mt-10 cursor-default">
         <div className="w-full p-10 text-center bg-center">
           <h1 className="text-[#20FD6A] font-bold">Back-End</h1>
           <div className="rounded-full ml-96 w-1/5 h-8 pt-5 pb-12 mt-5 bg-gradient-to-r from-blue-500 to-[#20FD6A] text-center bg-center float-left">
@@ -36,7 +36,7 @@ function Knowledge() {
           </div>
         </div>
       </div>
-      <div className="flex mb-24 mt-10">
+      <div className="flex mb-16 mt-10 cursor-default">
         <div className="w-full p-10 text-center bg-center">
           <h1 className="text-[#20FD6A] font-bold">Database</h1>
           <div className="rounded-full ml-96 w-96 h-8 pt-5 pb-12 mt-5 bg-gradient-to-r from-blue-500 to-[#20FD6A] text-center bg-center float-left">
@@ -45,7 +45,7 @@ function Knowledge() {
           </div>
         </div>
       </div>
-
+      <p className="text-gray-900 cursor-default">Ethical Hacking ?%</p>
       <p className="cursor-default">Copyright © De1v 2022</p>
     </div>
   )
