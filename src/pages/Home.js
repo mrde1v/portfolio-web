@@ -7,7 +7,7 @@ import Logo from "./../img/logo.png";
 function Home() {
   return (
     <div>
-      <nav className="p-5 nav md:opacity-0">
+      <nav className="p-5 nav">
         <ul className="inline-flex gap-5">
           <li>
             <Link to="/" className="hover:text-[#20FD6A] transition duration-300">Home</Link>
@@ -21,7 +21,7 @@ function Home() {
         </ul>
       </nav>
 
-      <div className="box bg-[#141615] bg-gradient-to-r from-[#0b110e] to-[#141615] p-20 mt-10 mb-10 cursor-default transform transition-all duration-150 ease-out md:opacity-0">
+      <div className="box bg-[#141615] bg-gradient-to-r from-[#0b110e] to-[#141615] p-20 mt-10 mb-10 cursor-default transform transition-all duration-150 ease-out">
         <div className="inline-flex float-left">
           <img className="inline-flex w-60 rounded-full" src={Logo} alt="logo" />
           <div>
