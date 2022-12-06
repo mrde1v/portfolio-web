@@ -7,7 +7,7 @@ import Logo from "./../img/logo.png";
 function Home() {
   return (
     <div>
-      <nav className="p-5 nav">
+      <nav className="p-5 nav md:opacity-0">
         <ul className="inline-flex gap-5">
           <li>
             <Link to="/" className="hover:text-[#20FD6A] transition duration-300">Home</Link>
