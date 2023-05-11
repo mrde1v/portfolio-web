@@ -24,16 +24,6 @@ function Projects() {
           <p className="mt-10 code">Minecraft Dev Studio<br/>Making PermShop,<br/> Anti-Cheat</p>
           <p className="mt-5 code">Status: <strong className="text-red-600">In Progress</strong></p>
         </div>
-        <div className="bg-[#1e221c] w-80 h-96 mt-10 rounded-xl drop-shadow-xl">
-          <h1 className="text-yellow-500 font-bold text-2xl mt-16">GeAtropol</h1>
-          <p className="mt-10 code">Cloud Gaming Service<br/>Low latency gaming <br/>on remote computer</p>
-          <p className="mt-5 code">Status: <strong className="text-red-600">In Progress</strong></p>
-        </div>
-        <div className="bg-[#1e221c] w-80 h-96 mt-10 rounded-xl drop-shadow-xl">
-          <h1 className="text-cyan-400 font-bold text-2xl mt-16">IpWare Proxy</h1>
-          <p className="mt-10 code">Reverse Proxy for<br/>minecraft servers<br/>without public ip</p>
-          <p className="mt-5 code">Status: <strong className="text-red-600">Suspended</strong></p>
-        </div>
       </div>
       <p className="cursor-default">Copyright © De1v 2022</p>
     </div>

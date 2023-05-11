@@ -33,7 +33,7 @@ function Home() {
           <p>I'm Czech Republic <strong className="bg-gradient-to-r from-blue-500 to-[#20FD6A] text-white">Full-Stack Developer</strong> <br />
           Working on <strong>Cloud Gaming Software</strong> <br/>
           Programming in <strong>JS, Java, C#</strong> <br/>
-          CEO of <strong className="text-yellow-400">Atropol Hosting</strong></p>
+          </p>
         </div>
         <div>
             <img className="mt-10 w-8/120" src="https://camo.githubusercontent.com/684489c3145f2348925b75918075be66888f2265c33542b6ef6f7c96af1534b1/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d70616e2d646531762673686f775f69636f6e733d74727565267468656d653d6d65726b6f" />
